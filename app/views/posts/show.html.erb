@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @post.content %>
+</p>
+
+<p>
+  <strong>File:</strong>
+  <%= @post.file %>
+</p>
+
+<p>
+  <strong>University:</strong>
+  <%= @post.university %>
+</p>
+
+<p>
+  <strong>Unv fac:</strong>
+  <%= @post.unv_fac %>
+</p>
+
+<p>
+  <strong>Fac dep:</strong>
+  <%= @post.fac_dep %>
+</p>
+
+<p>
+  <strong>Dep cour:</strong>
+  <%= @post.dep_cour %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @post.user %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>

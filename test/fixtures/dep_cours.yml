@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fac_dep: one
+  course: one
+
+two:
+  fac_dep: two
+  course: two

@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de4652a5-1952-422f-b2e2-c869f53b1e70" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/sorttable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/about-us.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/activity.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/ajax_for_index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/author-edit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/author-login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/author.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/blog-2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/blog-3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/blog-detail-2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/blog-detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/blog.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/contact-us.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/faq.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/helveticaneuecyr-bold.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/helveticaneuecyr-bold.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/helveticaneuecyr-bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/helveticaneuecyr-bold.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/helveticaneuecyr-roman.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/helveticaneuecyr-roman.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/helveticaneuecyr-roman.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/fonts/helveticaneuecyr-roman.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/gallery.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/a9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/about.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ava_9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be-desc.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_gal_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_gal_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_gal_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_gal_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_gal_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_gal_6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_post_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_post_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_post_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_post_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_post_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/be_slider_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/bg-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/bg-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/bg-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/bg-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blockquote-l.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blockquote-r.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_4_s.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_6_s.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_7_s.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_8_s.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_grid_9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_img_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_img_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_img_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/blog_img_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/c9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/client_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/client_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/client_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/client_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/client_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/client_6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/collection_9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/d1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/desc_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/desc_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/desc_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/drag.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/f9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/g9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/gallery-img-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/gallery-img-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/gallery-img-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/gallery-img-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/gallery-img-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/graph.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-134.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-comment.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-creative.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-features.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-followers-b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-followers.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-following-b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-following.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-like-b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-like.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-load.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-projects.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-views-b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-views.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/icon-worldwide.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/info_block_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/info_block_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/l1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/l2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/l3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/line_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/line_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/line_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/list_marker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/login.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/logo-green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/logo-loader.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/logo-orang.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/logo-red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/mail-g-ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/mail-ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/marker-ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/marker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/n_pop_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/n_pop_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/noto.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p27.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p28.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_24.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_25.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_26.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_27.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_28.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_29.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_30.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_31.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_32.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_33.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_34.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/p_link_9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/phone-g-ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/phone-ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/project_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/project_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/project_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/project_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/project_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s10c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s2c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s3c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s4c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s5c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s6c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s7c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s8c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/s9c.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/send_ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/service_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/service_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/service_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/soc-cloud.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/ss1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/stat_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/stat_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/stat_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/stat_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/subject-ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/t_project_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/t_project_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/t_project_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/t_project_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/team_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/team_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/team_3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/team_4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/team_5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/testimonals_1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/testimonals_2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/img/user-g-ico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/messages-2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/messages.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/organization.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/page1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/page2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/page3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/people.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/colors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/filters.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/global.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/idangerous.swiper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/isotope.pkgd.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jqColorPicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jquery-2.1.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jquery-ui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jquery-ui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jquery.canvasjs.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jquery.countTo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jquery.easy-autocomplete.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jquery.mixitup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/jquery.viewportchecker.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/magnific.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/map.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/sorttable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/script/wow.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/scss/stylesheet.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/search.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/shortcodes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/site-map.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/statictics.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/colorpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/icon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/idangerous.swiper.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/idangerous.swiper_backup.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/ie-9.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/jquery-ui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/loader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/magnific.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/style/stylesheet.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/Upload/work.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Upload/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="1129" column="7" lean-forward="false" selection-start-line="1129" selection-start-column="7" selection-end-line="1129" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assets.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+              <folding>
+                <marker date="1524231707073" expanded="true" signature="425:1156" ph="##..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="707" />
+    <option name="y" value="24" />
+    <option name="width" value="659" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="initializers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knpa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="knpa" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: knpa">
+    <configuration name="Development: knpa" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="knpa" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="Production: knpa" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="knpa" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="spec: knpa" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="knpa" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="test: knpa" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="knpa" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test: knpa" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec: knpa" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: knpa" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: knpa" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de4652a5-1952-422f-b2e2-c869f53b1e70" name="Default" comment="" />
+      <created>1524065333000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524065333000</updated>
+      <workItem from="1524065334270" duration="234000" />
+      <workItem from="1524095224417" duration="115000" />
+      <workItem from="1524229438129" duration="1647000" />
+      <workItem from="1524231091813" duration="12000" />
+      <workItem from="1524231326240" duration="50000" />
+      <workItem from="1524231378282" duration="781000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2842000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="51" y="-4" width="1869" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26330224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/stylesheet.css.scss" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/homepage.html.erb" />
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery-ui.min.js" />
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Upload/style/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/yarn-error.log" />
+    <entry file="file://$PROJECT_DIR$/node_modules/.yarn-integrity" />
+    <entry file="file://$PROJECT_DIR$/public/Upload/script/jquery-2.1.4.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/Upload/script/jquery-ui.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/Upload/script/idangerous.swiper.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/Upload/script/jquery-ui.js" />
+    <entry file="file://$PROJECT_DIR$/public/Upload/script/jquery.mixitup.js" />
+    <entry file="file://$PROJECT_DIR$/public/Upload/script/filters.js" />
+    <entry file="file://$PROJECT_DIR$/public/Upload/script/jquery.viewportchecker.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/Upload/script/global.js" />
+    <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/filters.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/jquery-ui.js" />
+    <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/jquery-ui.min.js" />
+    <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/idangerous.swiper.min.js" />
+    <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/jquery.viewportchecker.min.js" />
+    <entry file="file://$PROJECT_DIR$/lib/assets/stylesheets/icon.css" />
+    <entry file="file://$PROJECT_DIR$/lib/assets/stylesheets/jquery-ui.css" />
+    <entry file="file://$PROJECT_DIR$/lib/assets/stylesheets/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/cable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Upload/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="1129" column="7" lean-forward="false" selection-start-line="1129" selection-start-column="7" selection-end-line="1129" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+          <folding>
+            <marker date="1524231707073" expanded="true" signature="425:1156" ph="##..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sorttable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1728">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  unv_fac: one
+  department: one
+
+two:
+  unv_fac: two
+  department: two

@@ -1,0 +1,22 @@
+<%= form_with(model: web_site, local: true) do |form| %>
+  <% if web_site.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(web_site.errors.count, "error") %> prohibited this web_site from being saved:</h2>
+
+      <ul>
+      <% web_site.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :content %>
+    <%= form.text_field :content %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

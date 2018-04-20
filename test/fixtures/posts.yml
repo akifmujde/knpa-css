@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  file: MyString
+  university: one
+  unv_fac: one
+  fac_dep: one
+  dep_cour: one
+  user: one
+
+two:
+  content: MyString
+  file: MyString
+  university: two
+  unv_fac: two
+  fac_dep: two
+  dep_cour: two
+  user: two
