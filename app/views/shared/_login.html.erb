@@ -1,0 +1,43 @@
+<div class="large-popup login">
+  <div class="large-popup-fixed"></div>
+  <div class="container large-popup-container">
+    <div class="row">
+      <div class="col-md-8 col-md-push-2 col-lg-6 col-lg-push-3  large-popup-content">
+        <div class="row">
+          <div class="col-md-12">
+            <i class="fa fa-times close-button"></i>
+            <h5 class="large-popup-title">Log in</h5>
+          </div>
+          <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+            <div class="col-md-6">
+              <%= f.email_field :email, autofocus: true, autocomplete: "email", class: :"input-signtype", placeholder: :"Your email" %>
+            </div>
+
+            <div class="col-md-6">
+              <%= f.password_field :password, autocomplete: "off", class: :"input-signtype", placeholder: :"Password  " %>
+            </div>
+
+            <% if devise_mapping.rememberable? -%>
+              <div class="col-xs-6">
+                <div class="be-checkbox">
+                  <label class="check-box">
+                    <input class="checkbox-input" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me"><span class="check-box-sign"></span>
+                  </label>
+                  <span class="large-popup-text">
+              									Stay signed in
+              								</span>
+                </div>
+
+                <a href="/users/password/new" class="link-large-popup">Forgot password?</a>
+              </div>
+            <% end -%>
+
+            <div class="col-xs-6 for-signin">
+              <input type="submit" class="be-popup-sign-button" value="SIGN IN">
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

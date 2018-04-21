@@ -1,0 +1,316 @@
+<script>
+    $(document).ready(function(){
+        var optionalVisible = 0;
+        var unv_name = "";
+        var fac_name = "";
+        var dep_name = "";
+        var cour_name = "";
+
+        function filitrele($comenid) {
+            $("#container>div").each(function () {
+                if($(this).attr($comenid)==$('#'+$comenid).val()){
+                    $(this).show("slow");
+                }
+                else{
+                    $(this).hide("slow");
+                }
+            });
+        }
+
+        function reset($comenId) {
+            $( $comenId ).prop( "disabled", true );
+            $( $comenId).val("null");
+        }
+
+        $("#unv").change(function () {
+            filitrele('unv');
+            reset("#fac");
+            reset("#dep");
+            reset("#cour");
+            $("#submit").prop('disabled', true);
+            $id = parseInt($("#unv").val());
+            if (!isNaN($id)) {
+                unv_name = $("#unv option:selected").text();
+                $("#note_name").html(unv_name);
+                $("#fac>option").each(function () {
+                    if ($(this).attr('id') == $id) {
+                        $(this).show();
+                    }
+                    else {
+                        if (isNaN($(this).val())) {
+                            $(this).show();
+                        }
+                        else {
+                            $(this).hide();
+                        }
+                    }
+                });
+                $("#fac").prop("disabled", false);
+            }
+            else {
+                $("#note_name").html("Tüm Üniversiteler");
+            }
+        });
+        $("#fac").change(function () {
+            filitrele('fac');
+            reset("#dep");
+            reset("#cour");
+            $("#submit").prop('disabled', true);
+            $id = parseInt($("#fac").val());
+            if (!isNaN($id)) {
+                fac_name = $("#fac option:selected").text();
+                $("#note_name").html(unv_name + " " + fac_name);
+                $("#dep>option").each(function () {
+                    if ($(this).attr('id') == $id) {
+                        $(this).show();
+                    }
+                    else {
+                        if (isNaN($(this).val())) {
+                            $(this).show();
+                        }
+                        else {
+                            $(this).hide();
+                        }
+                    }
+                });
+                $("#dep").prop("disabled", false);
+            }
+            else {
+                $("#note_name").html(unv_name);
+            }
+        });
+        $("#dep").change(function () {
+            filitrele('dep');
+            reset("#cour");
+            $("#submit").prop('disabled', true);
+            $id = parseInt($("#dep").val());
+            if (!isNaN($id)) {
+                dep_name = $("#dep option:selected").text();
+                $("#note_name").html(unv_name + " " + fac_name + " " + dep_name);
+                $("#cour>option").each(function () {
+                    if ($(this).attr('id') == $id) {
+                        $(this).show();
+                    }
+                    else {
+                        if (isNaN($(this).val())) {
+                            $(this).show();
+                        }
+                        else {
+                            $(this).hide();
+                        }
+                    }
+                });
+                $("#cour").prop("disabled", false);
+            }
+            else {
+                $("#note_name").html(unv_name + " " + fac_name);
+            }
+        });
+        $("#cour").change(function () {
+            filitrele('cour');
+            if(!isNaN($("#cour").val())){
+                $("#submit").prop('disabled', false);
+                cour_name = $("#cour option:selected").text();
+                $("#note_name").html(unv_name + " " + fac_name + " " + dep_name + " " + cour_name);
+            }
+            else{
+                $("#submit").prop('disabled', true);
+                $("#note_name").html(unv_name + " " + fac_name + " " + dep_name);
+            }
+        });
+    });
+</script>
+
+  <div class="head-bg">
+    <div class="head-bg-img"></div>
+    <div class="head-bg-content">
+      <h1>Your Best Social Network Template</h1>
+      <p>Donec in rhoncus tortor. Sed tristique auctor ligula vel viverra</p>
+      <% if !user_signed_in? %>
+        <a class="btn color-1 size-1 hover-1"><i class="fa fa-facebook"></i>sign up via facebook</a>
+        <a class="be-register btn color-3 size-1 hover-6"><i class="fa fa-lock"></i>sign up now</a>
+      <% end %>
+    </div>
+  </div>
+  <div class="container-fluid cd-main-content custom-container">
+    <div class="row">
+      <div class="col-md-2 left-feild">
+        <form action="./" class="input-search">
+          <input type="text" required="" placeholder="Enter keyword">
+          <i class="fa fa-search"></i>
+          <input type="submit" value="">
+        </form>
+      </div>
+      <div class="col-md-10 ">
+        <div class="for-be-dropdowns">
+          <div class="be-drop-down">
+            <i class="icon-projects"></i>
+            <span class="be-dropdown-content"> Projects	</span>
+            <ul class="drop-down-list">
+              <li class="filter" data-filter=".category-1"><a data-type="category-1">Projects</a></li>
+              <li class="filter" data-filter=".category-2"><a data-type="category-2">Work in Progress</a></li>
+              <li class="filter" data-filter=".category-3"><a data-type="category-3">People</a></li>
+            </ul>
+          </div>
+          <div class="be-drop-down">
+            <i class="icon-creative"></i>
+            <span class="be-dropdown-content">All Creative Filds
+							</span>
+            <ul class="drop-down-list">
+              <li class="filter" data-filter=".category-4"><a>Item - 1</a></li>
+              <li class="filter" data-filter=".category-5"><a>Item - 2</a></li>
+              <li class="filter" data-filter=".category-1"><a>Item - 3</a></li>
+            </ul>
+          </div>
+          <div class="be-drop-down">
+            <i class="icon-features"></i>
+            <span class="be-dropdown-content">Features
+							</span>
+            <ul class="drop-down-list">
+              <li class="filter" data-filter=".category-2"><a>Featured</a></li>
+              <li class="filter" data-filter=".category-3"><a>Most Appreciated</a></li>
+              <li class="filter" data-filter=".category-4"><a>Most Viewed</a></li>
+              <li class="filter" data-filter=".category-5"><a>Most Discussed</a></li>
+              <li class="filter" data-filter=".category-1"><a>Most Recent</a></li>
+            </ul>
+          </div>
+          <div class="be-drop-down">
+            <i class="icon-worldwide"></i>
+            <span class="be-dropdown-content">Worldwide
+							</span>
+            <ul class="drop-down-list">
+              <li class="filter" data-filter=".category-2"><a>WorldWide</a></li>
+              <li class="filter" data-filter=".category-3"><a>United States</a></li>
+              <li class="filter" data-filter=".category-4"><a>Germany</a></li>
+              <li class="filter" data-filter=".category-5"><a>United Kingdom</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid custom-container">
+    <div class="row">
+
+      <div class="col-md-2 left-feild">
+        <div class="be-vidget">
+          <h3 class="letf-menu-article">
+            Filter By
+          </h3>
+          <div class="filter-block">
+            <div>
+              <select id="unv" name="post[university_id]" class="form-control" >
+                <option selected value="null" disabled>Üniversite Seçin</option>
+                <% University.all.each do |unv| %>
+                  <option value="<%= unv.id %>"><%= unv.name %></option>
+                <% end %>
+              </select>
+            </div><br>
+
+            <div>
+
+              <select id="fac" name="post[unv_fac_id]" class="form-control" disabled>
+                <option selected id="0" value="null" disabled>Fakülte Seçin</option>
+                <% UnvFac.all.each do |fac| %>
+                  <option id="<%= fac.university_id %>" value="<%= fac.id %>"><%= fac.faculty.name %></option>
+                <% end %>
+              </select>
+
+            </div><br>
+
+            <div>
+
+              <select id="dep" name="post[fac_dep_id]" class="form-control" disabled>
+                <option selected value="null" disabled>Bölüm Seçin</option>
+                <% FacDep.all.each do |dep| %>
+                  <option id="<%= dep.unv_fac_id %>" value="<%= dep.id %>"><%= dep.department.name %></option>
+                <% end %>
+              </select>
+
+            </div><br>
+
+            <div>
+
+              <select id="cour" name="post[dep_cour_id]" class="form-control" disabled>
+                <option selected value="null" disabled>Ders Seçin</option>
+                <% DepCour.all.each do |cours| %>
+                  <option id="<%= cours.fac_dep_id %>" value="<%= cours.id %>"><%= cours.course.name %></option>
+                <% end %>
+              </select>
+            </div><br>
+
+          </div>
+        </div>
+        <div class="be-vidget">
+          <h3 class="letf-menu-article">
+            Popular Creative Filds
+          </h3>
+          <div class="creative_filds_block">
+            <div class="ul">
+              <a  data-filter=".category-1" class="filter">Graphic Design		</a>
+              <a data-filter=".category-2" class="filter">Photography			</a>
+              <a data-filter=".category-3" class="filter">Interaction Design	</a>
+              <a data-filter=".category-4" class="filter">Art Direction		</a>
+              <a data-filter=".category-5" class="filter">Illustration		</a>
+            </div>
+          </div>
+        </div>
+        <div class="be-vidget">
+          <h3 class="letf-menu-article">
+            Popular Tags
+          </h3>
+          <div class="tags_block clearfix">
+            <ul>
+              <li><a data-filter=".category-6" class="filter">photoshop</a></li>
+              <li><a data-filter=".category-1" class="filter">graphic</a></li>
+              <li><a data-filter=".category-2" class="filter">art</a></li>
+              <li><a data-filter=".category-3" class="filter">website</a></li>
+              <li><a data-filter=".category-4" class="filter">logo</a></li>
+              <li><a data-filter=".category-5" class="filter">identity</a></li>
+              <li><a data-filter=".category-6" class="filter">logo design</a></li>
+              <li><a data-filter=".category-1" class="filter">interactive</a></li>
+              <li><a data-filter=".category-2" class="filter">blue</a></li>
+              <li><a data-filter=".category-3" class="filter">branding</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-10">
+
+        <div id="container" class="row _post-container_">
+
+          <% @posts.each do |post| %>
+            <div unv="<%= post.university_id %>" fac="<%= post.unv_fac_id %>" dep="<%= post.fac_dep_id %>" cour="<%= post.dep_cour_id %>" class="category-1 mix custom-column-5">
+              <div value="a.1" class="be-post">
+                <a href="/posts/<%= post.id %>" class="be-img-block">
+                  <img src="img/p1.jpg" alt="omg">
+                </a>
+                <a href="<%= post.id %>" class="be-post-title">
+                  <%= post.university.name %> <%= post.unv_fac.faculty.name %>
+                  <%= post.fac_dep.department.name %> <%= post.dep_cour.course.name %>
+                </a>
+                <span>
+                  <a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
+                  <a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
+                  <a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
+                </span>
+                <div value="a.1.1" class="author-post">
+                  <img src="img/a1.png" alt="" class="ava-author">
+                  <span>by <a href="/users/<%= post.user.id %>"><%= post.user.name %> <%= post.user.surname %></a></span>
+                </div>
+                <div value="a.1.2" class="info-block">
+                  <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                  <span><i class="fa fa-eye"></i> 789</span>
+                  <span><i class="fa fa-comment-o"></i> 20</span>
+                </div>
+              </div>
+            </div>
+          <% end %>
+
+        </div>
+      </div>
+
+    </div>
+  </div>

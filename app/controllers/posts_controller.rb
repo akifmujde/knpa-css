@@ -1,10 +1,22 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:show, :index]
+  before_action :denetim, only: [:edit,:destroy]
+
+  def denetim
+    unless @post.user==current_user
+      redirect_to root_path,notice:"Bu Kayıt Üzerinde İşlem Yapabilmek İçin Yetkiniz Bulunmamaktadır."
+    end
+  end
 
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+    @posts= if params[:term]
+              Post.where('title LIKE?', "%#{params[:term]}%")
+            else
+              @posts = Post.order(created_at: :desc)
+            end
   end
 
   # GET /posts/1
@@ -14,7 +26,7 @@ class PostsController < ApplicationController
 
   # GET /posts/new
   def new
-    @post = Post.new
+    @post = current_user.posts.build
   end
 
   # GET /posts/1/edit
@@ -24,7 +36,8 @@ class PostsController < ApplicationController
   # POST /posts
   # POST /posts.json
   def create
-    @post = Post.new(post_params)
+    @post = current_user.posts.build(post_params)
+    @post.user_id = current_user.id
 
     respond_to do |format|
       if @post.save
@@ -69,6 +82,6 @@ class PostsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
-      params.require(:post).permit(:content, :file, :university_id, :unv_fac_id, :fac_dep_id, :dep_cour_id, :user_id)
+      params.require(:post).permit(:title, :content, :dep_cour_id, :user_id, :file, :university_id, :unv_fac_id, :fac_dep_id)
     end
 end

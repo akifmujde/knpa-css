@@ -1,0 +1,92 @@
+<div class="large-popup register">
+  <div class="large-popup-fixed"></div>
+  <div class="container large-popup-container">
+    <div class="row">
+      <div class="col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 large-popup-content">
+        <div class="row">
+          <div class="col-md-12">
+            <i class="fa fa-times close-button"></i>
+            <h5 class="large-popup-title">Register</h5>
+          </div>
+
+
+          <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+            <%= devise_error_messages! %>
+
+            <div class="col-md-6">
+              <%= f.text_field :name, autofocus: true, :class => 'input-signtype',placeholder: "First Name" %>
+            </div>
+            <div class="col-md-6">
+              <%= f.text_field :surname, :class => 'input-signtype',placeholder: "Last Name" %>
+            </div>
+            <div class="col-md-12">
+              <%= f.email_field :email, :class => 'input-signtype',placeholder: "somebody@example.com" %>
+            </div>
+            <div class="col-md-6">
+              <%= f.password_field :password, autocomplete: "off", :class => 'input-signtype',placeholder: "Password" %>
+            </div>
+            <div class="col-md-6">
+              <%= f.password_field :password_confirmation, class: "input-signtype", autocomplete: "off",placeholder: "Repeat Password" %>
+            </div>
+            <div class="col-md-12 be-date-block">
+            							<span class="large-popup-text">
+            								Üniversite Bilgileri
+            							</span>
+              <div class="be-custom-select-block mounth">
+
+                <select id="unv" name="user[university_id]" class="be-custom-select">
+                  <option selected value="null" disabled>Üniversite</option>
+                  <% University.all.each do |unv| %>
+                    <option value="<%= unv.id %>"><%= unv.name %></option>
+                  <% end %>
+                </select>
+
+              </div>
+              <div class="be-custom-select-block">
+
+                <select id="fac" name="user[unv_fac_id]" disabled class="be-custom-select">
+                  <option selected id="0" value="null" disabled>Fakülte</option>
+                  <% UnvFac.all.each do |fac| %>
+                    <option id="<%= fac.university_id %>" value="<%= fac.id %>"><%= fac.faculty.name %></option>
+                  <% end %>
+                </select>
+
+              </div>
+              <div class="be-custom-select-block">
+                <select id="dep" name="user[fac_dep_id]" disabled class="be-custom-select">
+                  <option selected value="null" disabled>Bölüm</option>
+                  <% FacDep.all.each do |dep| %>
+                    <option id="<%= dep.unv_fac_id %>" value="<%= dep.id %>"><%= dep.department.name %></option>
+                  <% end %>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="be-checkbox">
+                <label class="check-box">
+                  <input class="checkbox-input" type="checkbox" required="" value="">
+                  <span class="check-box-sign"></span>
+                </label>
+                <span class="large-popup-text">
+            									I have read and agree to the <a class="be-popup-terms" href="blog-detail-2.html">Terms of Use</a> and <a class="be-popup-terms" href="blog-detail-2.html">Privacy Policy</a>.
+            								</span>
+              </div>
+              <div class="be-checkbox">
+                <label class="check-box">
+                  <input class="checkbox-input" type="checkbox" value=""> <span class="check-box-sign"></span>
+                </label>
+                <span class="large-popup-text">
+            									Send me notifications
+            								</span>
+              </div>
+            </div>
+            <div class="col-md-6 for-signin">
+              <input type="submit" name="commit" class="be-popup-sign-button" value="SIGN IN">
+            </div>
+          <% end %>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
