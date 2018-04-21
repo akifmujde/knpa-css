@@ -19,18 +19,31 @@
 
   </head>
 
-  <body>
+  <body class="body-color2">
+
+    <!-- LOADER CONTENT -->
     <%= render "shared/loader" %>
+
+    <!-- NAVBAR CONTENT -->
     <%= render "shared/navbar" %>
+
     <!-- MAIN CONTENT -->
     <div id="content-block">
-     <%= yield %>
+      <%= render "shared/head" %>
+      <%= yield %>
     </div>
+
+    <!-- FOOTER CONTENT -->
     <%= render "shared/footer" %>
+
+    <!-- POPUP CONTENT -->
     <% if !user_signed_in? %>
       <%= render "shared/login" %>
       <%= render "shared/register" %>
     <% end %>
+
+    <!-- CONFİG CONTENT -->
     <%= render "shared/config" %>
+
   </body>
 </html>

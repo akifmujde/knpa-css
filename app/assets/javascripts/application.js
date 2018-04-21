@@ -35,3 +35,8 @@
 //= require script
 //= require sorttable
 //= require wow
+
+function reset($comenId) {
+    $( $comenId ).prop( "disabled", true );
+    $( $comenId).val("null");
+}

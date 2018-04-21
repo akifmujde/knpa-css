@@ -1,3 +1,57 @@
+<script>
+    $(document).ready(function () {
+
+        /*
+        unv adlı id ye sahip select box a herhangi bir değişim gözlendiğinde bu fonksiyon tetiklenir.
+        bu fonksiyonun algoritması şöyledir
+        tıklanılan bu select box en tepedeki select box tur. Yani herhangi bir seçim durumunda
+        fakülteleri içeren select box
+         */
+
+        $("#Runv").change(function () {
+            reset("#Rfac");
+            reset("#Rdep");
+            $id = parseInt($("#Runv").val());
+            if (!isNaN($id)) {
+                $("#Rfac>option").each(function () {
+                    if ($(this).attr('id') == $id) {
+                        $(this).show();
+                    }
+                    else {
+                        if (isNaN($(this).val())) {
+                            $(this).show();
+                        }
+                        else {
+                            $(this).hide();
+                        }
+                    }
+                });
+                $("#Rfac").prop("disabled", false);
+            }
+        });
+        $("#Rfac").change(function () {
+            reset("#Rdep");
+            $id = parseInt($("#Rfac").val());
+            if (!isNaN($id)) {
+                $("#Rdep>option").each(function () {
+                    if ($(this).attr('id') == $id) {
+                        $(this).show();
+                    }
+                    else {
+                        if (isNaN($(this).val())) {
+                            $(this).show();
+                        }
+                        else {
+                            $(this).hide();
+                        }
+                    }
+                });
+                $("#Rdep").prop("disabled", false);
+            }
+        });
+
+    });
+</script>
 <div class="large-popup register">
   <div class="large-popup-fixed"></div>
   <div class="container large-popup-container">
@@ -29,31 +83,25 @@
               <%= f.password_field :password_confirmation, class: "input-signtype", autocomplete: "off",placeholder: "Repeat Password" %>
             </div>
             <div class="col-md-12 be-date-block">
-            							<span class="large-popup-text">
-            								Üniversite Bilgileri
-            							</span>
+              <span class="large-popup-text">Üniversite Bilgileri</span>
               <div class="be-custom-select-block mounth">
-
-                <select id="unv" name="user[university_id]" class="be-custom-select">
+                <select id="Runv" name="user[university_id]" class="be-custom-select">
                   <option selected value="null" disabled>Üniversite</option>
                   <% University.all.each do |unv| %>
                     <option value="<%= unv.id %>"><%= unv.name %></option>
                   <% end %>
                 </select>
-
               </div>
               <div class="be-custom-select-block">
-
-                <select id="fac" name="user[unv_fac_id]" disabled class="be-custom-select">
+                <select id="Rfac" name="user[unv_fac_id]" disabled class="be-custom-select">
                   <option selected id="0" value="null" disabled>Fakülte</option>
                   <% UnvFac.all.each do |fac| %>
                     <option id="<%= fac.university_id %>" value="<%= fac.id %>"><%= fac.faculty.name %></option>
                   <% end %>
                 </select>
-
               </div>
               <div class="be-custom-select-block">
-                <select id="dep" name="user[fac_dep_id]" disabled class="be-custom-select">
+                <select id="Rdep" name="user[fac_dep_id]" disabled class="be-custom-select">
                   <option selected value="null" disabled>Bölüm</option>
                   <% FacDep.all.each do |dep| %>
                     <option id="<%= dep.unv_fac_id %>" value="<%= dep.id %>"><%= dep.department.name %></option>
