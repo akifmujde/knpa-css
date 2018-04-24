@@ -1,26 +1,46 @@
-<h2>Log in</h2>
+<section id="login">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="form-wrap">
+          <h1><%=t("sign_in")%></h1>
+          <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+            <div class="form-group">
+              <label>Email</label>
+              <%= f.email_field :email, autofocus: true, :class => 'form-control',placeholder: "somebody@example.com" %>
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input autocomplete="off" class="form-control" type="password" name="user[password]" id="user_password" placeholder="Password">
+            </div>
+            <div class="checkbox">
+              <span onclick="showPassword()"><span class="character-checkbox" ></span><span class="label">Show password</span></span>
+            </div>
+<div style="text-align: center;" ><input type="submit" class="btn-login btn color-1 size-2 hover-1" value="Log in"></div>
+            
+          <% end %>
+        </div>
+      </div> <!-- /.col-xs-12 -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section>
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
+<script>
+    function showPassword() {
 
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "off" %>
-  </div>
+        var key_attr = $('#user_password').attr('type');
 
-  <% if devise_mapping.rememberable? -%>
-    <div class="field">
-      <%= f.check_box :remember_me %>
-      <%= f.label :remember_me %>
-    </div>
-  <% end -%>
+        if (key_attr != 'text') {
 
-  <div class="actions">
-    <%= f.submit "Log in" %>
-  </div>
-<% end %>
+            $('.checkbox').addClass('show');
+            $('#user_password').attr('type', 'text');
 
-<%= render "devise/shared/links" %>
+        } else {
+
+            $('.checkbox').removeClass('show');
+            $('#user_password').attr('type', 'password');
+
+        }
+
+    }
+</script>

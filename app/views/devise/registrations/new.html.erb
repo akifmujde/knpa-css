@@ -5,14 +5,12 @@
             $($comenId).prop("disabled", true);
             $($comenId).val("null");
         }
-
         /*
         unv adlı id ye sahip select box a herhangi bir değişim gözlendiğinde bu fonksiyon tetiklenir.
         bu fonksiyonun algoritması şöyledir
         tıklanılan bu select box en tepedeki select box tur. Yani herhangi bir seçim durumunda
         fakülteleri içeren select box
          */
-
         $("#unv").change(function () {
             reset("#fac");
             reset("#dep");
@@ -56,6 +54,7 @@
         });
     });
 </script>
+<section id="login">
 
   <div class="container">
     <div class="row">
@@ -68,16 +67,15 @@
 
             <div class="form-group">
               <label><%= t("name") %></label><br>
-              <%= f.text_field :name, autofocus: true, :class => 'form-control', placeholder: "name" %>
+              <%= f.text_field :name, autofocus: true, :class => 'form-control',placeholder: "name" %>
             </div>
 
             <div class="form-group">
               <label><%= t("surname") %></label><br>
-              <%= f.text_field :surname, :class => 'form-control', placeholder: "surname" %>
+              <%= f.text_field :surname, :class => 'form-control',placeholder: "surname" %>
             </div>
 
             <div class="form-group">
-
               <label>University</label>
               <select id="unv" name="user[university_id]" class="form-control">
                 <option selected value="null" disabled>Üniversite</option>
@@ -112,7 +110,7 @@
             <div class="form-group">
               <div class="field">
                 <label><%= t("email") %></label><br/>
-                <%= f.email_field :email, :class => 'form-control', placeholder: "somebody@example.com" %>
+                <%= f.email_field :email, :class => 'form-control',placeholder: "somebody@example.com" %>
               </div>
             </div>
 
@@ -121,17 +119,17 @@
               <% if @minimum_password_length %>
                 <em>(minimum <%= @minimum_password_length %> <%= t("character") %>)</em>
               <% end %><br/>
-              <%= f.password_field :password, autocomplete: "off", :class => 'form-control', placeholder: "Password" %>
+              <%= f.password_field :password, autocomplete: "off", :class => 'form-control',placeholder: "Password" %>
             </div>
 
             <div class="form-group">
               <label><%= t("confrim_password") %></label><br/>
-              <%= f.password_field :password_confirmation, class: "form-control", autocomplete: "off", placeholder: "Repeat Password" %>
+              <%= f.password_field :password_confirmation, class: "form-control", autocomplete: "off",placeholder: "Repeat Password" %>
             </div>
 
-            <div class="form-group">
+           <div class="form-group">
               <div class="actions" style="text-align: center">
-                <input type="submit" name="commit" class="btn btn-success btn-lg">
+<input type="submit" class="btn-login btn color-1 size-2 hover-1" value="Log in">
               </div>
             </div>
 
@@ -141,3 +139,8 @@
       </div>
     </div>
   </div>
+
+</section>
+
+
+
